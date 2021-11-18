@@ -1,5 +1,5 @@
 ## you can test this app fully working in sandbox mode at ** https://sandboxx-orderregister.web.app/#/pedidos ** ##
-**( navigate between 'novo pedido' (new order) , and 'historico pedidos' (orders display). App still all in portuguese language, it was developed in study context to restaurant located in portugal )
+**( navigate between 'novo pedido' (new order) , and 'historico pedidos' (orders display). App still all in portuguese language, it was developed in study context to restaurant located in portugal )**
 
 ** RESTAURANT ORDER REGISTRATOR WITH DIRECT COMMUNICATION BETWEEN PRODUCTION TEAM, KITCHEN, AND WAITERS **
 
