@@ -1,4 +1,8 @@
-### you can test this app fully working in sandbox mode at **https://sandboxx-orderregister.web.app/#/pedidos** 
+### you can test this app fully working in sandbox mode at:
+###**https://sandboxx-orderregister.web.app/#/pedidos**
+
+-------------------
+
 **( navigate between 'novo pedido' (new order) , and 'historico pedidos' (orders display). App still all in portuguese language, it was developed in study context to restaurant located in portugal )**
 
 **RESTAURANT ORDER REGISTRATOR WITH DIRECT COMMUNICATION BETWEEN PRODUCTION TEAM, KITCHEN, AND WAITERS**
@@ -14,3 +18,24 @@ Create a React app where waiters, production and kitchen can be connected. This 
 **Features**
 
 App was developed concerning an easy adaptation to diferent restaurants, any user can categorize the producs in diferent groups, and create table areas for easier organization. 
+
+
+**How it works**
+
+Waiters would use the 'Novo pedido' screen ( https://sandboxx-orderregister.web.app/#/pedidos ) on their phone, navigate between products 'Pratos dia' (daily dishes), 'bebidas' (drinks), 'cafetaria' (coffe and coffe drinks), etc. Choose a table ('mesa' in portuguese), and then save 'salvar mesa'. The information appears instantly on 'Historico Pedidos screen'.
+
+_If for example a burguer place would use this app, they could easely create a 'burguers' list, by simply edinting or adding some values in the react.js component props related to so._
+
+
+Production and Kitchen have the 'Historico Pedidos' screen ( https://sandboxx-orderregister.web.app/#/historico ) on, where they can check the orders, that are updated at the moment the waiter takes them, and start workin on it right away. 
+
+**About the App**
+
+React.js app projected, designed and developed by myself from scratch.
+
+**Dependencies**
+
+.React-dom
+.Howler.js
+.Firebase
+
