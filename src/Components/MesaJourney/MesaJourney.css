@@ -1,0 +1,29 @@
+button {background-color: rgb(105, 105, 105);}
+
+.produto {display: flex}
+.produto > * {flex: 1;}
+.comida button {background-color: rgb(97, 56, 87);}
+.bebida button {background-color: rgb(64, 64, 99);}
+.badge {border: solid 2px rgb(46, 46, 46) ;}
+.header-categoria {
+    width: 99%;
+    text-align: center; 
+    padding: 5px 0px;
+    margin: 5px auto;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+}
+
+.header-categoria:first-child{
+    
+    box-sizing: border-box;
+    margin-top: 20px; 
+    border-top: 2px solid white;
+    /* border-radius: 10px 10px 0px 0px; */
+    padding-top: 10px;
+}
+.fechar-aba {
+
+    background-color: rgb(32, 32, 60);
+    border-bottom: 1px solid white;
+}

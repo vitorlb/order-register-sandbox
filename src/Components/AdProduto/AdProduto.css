@@ -1,0 +1,7 @@
+.mostrador {
+    /* border-radius: 5px; */
+    margin: 2px;
+    border: 2px solid white;
+}
+
+.mostrador span {color:white}

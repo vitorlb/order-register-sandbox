@@ -1,0 +1,67 @@
+button {background-color: rgb(129, 106, 129);}
+
+.lista-mesas {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ 
+.confirmar-mesa {
+    display: flex;
+    width: 100%;
+}
+
+.confirmar-mesa > button {flex: 1}
+
+.confirm:focus {background-color: rgb(71, 173, 122);}
+
+.mesa {width: 33.33%;}
+
+.mesa > button {width: 100%}   
+
+.mesa-journey-section {
+    margin-bottom: 10px;
+}
+
+.mesa-journey-section button {margin: 2px;}
+
+
+
+.zonas  { 
+    padding-top: 15px;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+    width: 99%;
+    margin: 0 auto;
+    /* border-radius: 0px 0px 10px 10px; */
+}
+
+.zonas>* {
+    width: 50%; 
+}
+
+.zonas button {
+    /* border-radius: 0px; */
+    background-color: #ffffff00; 
+    border: 2px solid white;
+}
+
+
+.display-mesas {width: 100%}
+
+.sem-mesa {width: 100%;}
+.sem-mesa > .mesa {width: 100%;}
+
+.zona-display {
+    border-top: 0px !important;
+    border-left: 0px !important;
+  }
+
+.sem-mesa button{
+    border-left: 0px !important;
+    border-right: 0px   !important;
+}
+
+.zona-display:nth-child(3) {border-right: 0px !important;}
+.zona-display:nth-child(5) {border-right: 0px !important;}

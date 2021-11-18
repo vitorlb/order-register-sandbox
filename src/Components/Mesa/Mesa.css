@@ -1,0 +1,7 @@
+.mesa button:active {
+    background-color: rgb(71, 173, 122);
+}
+
+.mesa button:focus {
+    background-color: rgb(71, 173, 122);
+}
